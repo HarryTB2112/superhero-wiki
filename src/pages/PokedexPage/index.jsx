@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 import { usePokemon } from "../../contexts";
 
 export default function PokedexPage() {
-  const { setPokemon } = usePokemon();
-  // const [pokemon, setPokemon] = useState([]);
+  // const { setPokemon } = usePokemon();
+  const [pokemon, setPokemon] = useState([]);
   const grabPokemon = async () => {
     let i = 0;
     const options = {
@@ -37,7 +37,7 @@ export default function PokedexPage() {
     <div className="main-container">
       <div className="pokedex">
         {pokemon.map((p, i) => {
-          <PokemonCard pokemon={p} key={i} />;
+          return <PokemonCard pokemon={p} key={i} />;
         })}
       </div>
     </div>

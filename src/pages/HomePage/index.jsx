@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <div className="about">
-      <h1>The Superhero Wiki</h1>
+      <h1>The Pokemon Wiki</h1>
       <p>
-        Welcome to the Superhero wiki, where you can find out more about the
-        superheroes you love!
+        Welcome to the Pokemon wiki, where you can find out more about the
+        pokemon you love!
       </p>
-      <Link to="/superheroes">Superheroes</Link>
+      <button className="button">
+        <Link to="/pokemon">Pokemon</Link>
+      </button>
     </div>
   );
 }
