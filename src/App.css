@@ -133,3 +133,305 @@ body {
   gap: 5px;
   font-size: 12px;
 }
+
+.button {
+  background-color: rgb(97, 166, 255);
+  color: whitesmoke;
+  font-size: 24px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.button:hover {
+  background-color: rgb(84, 146, 226);
+}
+
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.pokemon-container h1 {
+  text-align: center;
+}
+
+.back-button {
+  background-color: rgb(97, 166, 255);
+  color: whitesmoke;
+  font-size: 24px;
+  width: 100px;
+  height: fit-content;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: rgb(84, 146, 226);
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  width: 550px;
+  gap: 30px;
+}
+.grass {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(112, 189, 112);
+  color: black;
+}
+.poison {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+}
+.fire {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+}
+.water {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(0, 137, 249);
+  color: white;
+}
+.flying {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #00d4ff 0%, #c2c2c2 100%);
+  color: white;
+}
+.bug {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(33, 116, 44);
+  color: white;
+}
+.normal {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(105, 105, 105);
+  color: white;
+}
+.electric {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(245, 254, 6);
+  color: black;
+}
+.ground {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #d2d904 0%, #876c00 100%);
+  color: black;
+}
+.fairy {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(214, 169, 215);
+  color: black;
+}
+.fighting {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(216, 58, 22);
+  color: white;
+}
+.psychic {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(222, 108, 214);
+  color: white;
+}
+.rock {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(130, 104, 26);
+  color: white;
+}
+.steel {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(145, 145, 145);
+  color: black;
+}
+.ice {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: black;
+}
+.ghost {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(99, 10, 99);
+  color: white;
+}
+.dragon {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #3c78e1 0%, #c76648 100%);
+  color: white;
+}
+.dark {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+li {
+  text-decoration: none;
+}
