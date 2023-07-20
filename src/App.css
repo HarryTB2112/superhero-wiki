@@ -76,3 +76,61 @@ body {
   top: 70px;
   height: 100%;
 }
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.pokedex {
+  margin-top: 50px;
+  top: 100px;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 18rem);
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  padding: 3px;
+  background-color: rgb(91, 151, 255);
+  border-radius: 10px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  scale: 1.05;
+}
+
+.sprite {
+  width: 100%;
+  background-color: rgb(218, 218, 218);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 12px;
+}

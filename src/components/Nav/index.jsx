@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <>
       <nav className="nav">
-        <h1 className="logo">SuperHero Wiki</h1>
+        <h1 className="logo">Pokemon Wiki</h1>
         <ul className="nav-links">
           <NavLink
             to="/"
@@ -15,12 +15,12 @@ export default function Nav() {
             Home
           </NavLink>
           <NavLink
-            to="/superheroes"
+            to="/pokemon"
             style={({ isActive }) => {
               return { backgroundColor: isActive ? "rgb(208, 29, 29)" : null };
             }}
           >
-            Superheroes
+            Pokedex
           </NavLink>
         </ul>
       </nav>
